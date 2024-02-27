@@ -1,0 +1,1 @@
+configtxlator proto_decode --input newest.pb --type common.Block | jq -r '.data.data | length'
